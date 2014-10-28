@@ -19,8 +19,8 @@ public class Hora {
 		 tz.getID();
 		 tz.getOffset( System.currentTimeMillis() ); 
 	
-		System.out.println("la hora es " + tz.getDisplayName());
-		System.out.println("la hora es " + tz.getID());
+		System.out.println("tu zona horaria es " + tz.getDisplayName());
+		System.out.println("zona horaria " + tz.getID());
 		System.out.println("la hora es " + tz.getOffset(System.currentTimeMillis()));
 
 	}
