@@ -15,13 +15,11 @@ public class Hora {
 
 		//calendar.setTimeZone(tz);
 	
-		 tz.getDisplayName();
-		 tz.getID();
-		 tz.getOffset( System.currentTimeMillis() ); 
+		tz.getDisplayName();
+		tz.getID();
+		tz.getOffset( System.currentTimeMillis() ); 
 	
-		System.out.println("la hora es " + tz.getDisplayName());
-		System.out.println("la hora es " + tz.getID());
-		System.out.println("la hora es " + tz.getOffset(System.currentTimeMillis()));
+	System.out.println("la hora es " + tz);
 
 	}
 
