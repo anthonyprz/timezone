@@ -15,13 +15,13 @@ public class Hora {
 
 		//calendar.setTimeZone(tz);
 		 tz.getDefault ();
-		// tz.getDisplayName();
+		 //tz.getDisplayName();
 		// tz.getID();
 		// tz.getOffset( System.currentTimeMillis() ); 
 		// tz.getRawOffset ();
 		System.out.println("tu zona horaria es " + tz.getDisplayName());
 		System.out.println("zona horaria " + tz.getID());
-		System.out.println("milisegundos " + tz.getOffset(System.currentTimeMillis()));
+		//System.out.println("milisegundos " + tz.getOffset(System.currentTimeMillis()));
 		// System.out.println("zona horaria " + tz.getDefault());
 	}
 
