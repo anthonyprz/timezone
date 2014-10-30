@@ -1,7 +1,7 @@
 //import java.util.Calendar;
 import java.util.TimeZone;
 //import java.util.GregorianCalendar;
-public class Hora {
+public abstract class Hora {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
