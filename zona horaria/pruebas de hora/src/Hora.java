@@ -21,8 +21,8 @@ public abstract class Hora {
 		// tz.getRawOffset ();
 		System.out.println("tu zona horaria es " + tz.getDisplayName());
 		System.out.println("zona horaria " + tz.getID());
-		//System.out.println("milisegundos " + tz.getOffset(System.currentTimeMillis()));
-		// System.out.println("zona horaria " + tz.getDefault());
+	
+		
 	}
 
 }
